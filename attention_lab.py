@@ -18,7 +18,7 @@ matplotlib.use("Agg")  # render to file; no display needed
 import matplotlib.pyplot as plt
 
 SEED = 42
-np.random.seed(SEED)
+np.random.seed(42)
 np.set_printoptions(precision=3, suppress=True, linewidth=120)
 
 # ---------------------------------------------------------------------------
